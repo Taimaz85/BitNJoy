@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="./signin.css">
+    </head>
+    <body>
+        <section>
+            <div>
+                <a href="./index.html">
+                    <img class="logo-signup" 
+                        src="logo1.png"
+                        alt="BitNJoy Logo"/>
+                </a>
+            </div>
+            <h1>Sign up to 
+                <h1 class="brand-name">
+                    BitNJoy
+                </h1>
+            </h1>
+           <form action="/signup" method="post">
+                <label>E-mail:
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email"
+                        required>
+                </label>
+                <br/>
+                <label>Password:
+                    <input 
+                        type="password" 
+                        name="password_repeat" 
+                        id="password"
+                        required>
+                </label>
+                <br/>
+                <label>Repeat Password:
+                    <input 
+                        type="password" 
+                        name="password_repeat" 
+                        id="password"
+                        required>
+                </label>
+                <br/>
+                <button type="submit">Sign up</button>
+            </form>
+            <a class="link"
+                href="./signin.html">
+                Login instead
+            </a>
+        </section>
+    </body>
+</html>

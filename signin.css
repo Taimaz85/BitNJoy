@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("signinPicture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ section{
+    text-align: center;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .brand-name {
+    color: yellow;
+    font-size:x-large;
+ }
+
+ h1 {
+    font-size: medium;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+
+label {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-signup {
+    width: 100px;
+}
+
+.link {
+    background: none;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.backdrop {
+    filter: brightness(50%);
+}

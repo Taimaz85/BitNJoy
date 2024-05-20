@@ -1,0 +1,35 @@
+.layout-picture {
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/*@media (max-width: 500px){
+    .container{
+        width: 480px;
+    }
+}
+
+@media (max-width: 720px){
+    .container{
+        width: 700px;
+    }
+}
+
+@media (max-width: 920px){
+    .container{
+        width: 900px;
+    }
+}*/
+
+/*@media (max-width: 1400px){
+    .container{
+        width: 1380px;
+    }
+}*/
+
+
+
